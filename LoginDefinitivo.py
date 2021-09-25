@@ -31,7 +31,7 @@ def inicio_sesion():
 
 def verificar():
     global count
-    if nombre_usuario_entry.get() == "admin" and contrasena_usuario_entry.get() == "123":
+    if nombre_usuario_entry.get() == "admininicial" and contrasena_usuario_entry.get() == "admin123456":
         messagebox.showwarning('', 'Bienvenido, Inicio de sesión exitoso')
     else:
         if count != 1:
